@@ -6,12 +6,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
+    android:background="@drawable/background"
     tools:context=".Show">
 
     <Button
         android:id="@+id/btnMovieWithRating"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="#fbec5d"
         android:text="@string/btnShowAll"
         app:cornerRadius="5dp" />
 
